@@ -1,0 +1,49 @@
+<!doctype html>
+<title>Terrible Idea</title>
+<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+
+#main > nav {
+  order: -1;
+}
+header {
+  background: blue;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-size: 5vh;
+  text-align: center;
+  height: 20vh;
+}
+header, article {
+  padding: 1em;
+}
+</style>
+
+<body>
+  <header>
+    <div>
+      GoofNews!
+    </div>
+  </header>
+  <div id="main">
+    <article>
+      What do you want to see news about? 
+    </article>
+  </div>
+</body>

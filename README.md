@@ -1,1 +1,1 @@
-# glitch-news
+# Python3 Flask project
